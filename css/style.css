@@ -1,0 +1,147 @@
+.topo-do-site{
+    width: 100%;
+    height: 800px; /*Tamanho do banner feito no photoshop*/
+    background-image: url('../img/banner.png'); /*Colocado o banner do topo*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topo-do-site h1{
+    font-family: Poppins;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 320px; /*Usado para descer todo a classe topo-do-site*/
+}
+
+.topo-do-site p{
+    /*font-family: Montserrat;*/
+    color: #feec00;
+    font-weight: bold;
+    
+}
+
+.topo-do-site span{
+    color: #feec00;
+}
+
+.botao{
+    color: white;
+    background: linear-gradient(#00bcf9, #0065eb);
+    border: none;
+    border-radius: 10px;
+    padding: 23px; /*Tamanho do botão*/
+    font-family: Montserrat;
+    font-weight: bold;
+    
+}
+
+.botao:hover{
+    background: linear-gradient(#3c3c3c, #010101);
+}
+
+/* Estilos da sessão 1 */
+.grid-11 h2{
+    font-weight: bold;
+    font-family: Poppins;
+    color: #3a4a92;
+    font-size: 33px;
+    margin-top: 80px;
+    
+}
+
+.grid-11 p{
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.grid-11 ol{
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.grid-5{
+    margin-top: 120px;   
+}
+/* Fim do estilo da sessão 1 */
+/* Estilos da sessão 2 */
+.secao-2{
+    background: url('../img/eletricista.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 478px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.render{
+    margin-top: 77px;
+}
+
+.secao-2 h2{
+    font-weight: bold;
+    font-family: Poppins;
+    color:white;
+    margin-top: 80px;
+    
+}
+
+.secao-2 p{
+    font-family: Poppins;
+    color: white;
+    margin-top: 5px;
+}
+
+/*Fim do estilo da sessão 2*/
+
+/* Estilos das sessão 3 */
+.secao-3{
+    margin-bottom: 50px;
+}
+.secao-3 h2{
+    font-weight: bold;
+    font-family: Poppins;
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.secao-3 li{
+    margin-top: 40px;
+    background: linear-gradient(#00bcf9, #0065eb);  
+    width: 280px;
+    height: 400px;
+    list-style-type:none ;
+    border-radius: 30px 10px 30px 5px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px; /*Usado para deixar o bottom com a cor que for ser escolhida*/
+    border-color: #feec00;
+    box-shadow: 0px 13px 21px 0px rgb(0 0 0 /56%); /*Usado para sombreamento*/
+    padding: 20px 20px 30px 20px; /*espaçamento do parágrafo*/
+
+}
+
+.secao-3 h3{
+    font-family: Poppins;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.secao-3 p{
+    color: white;
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 15px;
+}
+
+    .cor{
+        color: #dfcf00;
+    }
+
+    .secao-3 span{
+        color: #feec00;
+    }
+
+/* Fim do estilo da sessão 3 */ 
