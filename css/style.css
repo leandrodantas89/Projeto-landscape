@@ -149,9 +149,10 @@
 /* Estilos da sessão 4 */
 .secao-4{
     background-color: #fafafa;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     width: 100%;
-    height: 700px;
+    height: 850px;
+    margin-top: 80px;
 }
 
 .secao-4 p{
@@ -172,17 +173,16 @@
     color: #6a6a6a;
 }
 
-.secao-4 img{
+.eletricista{
     border-radius: 10px;
     box-shadow: 0px 13px 21px 0px rgb(0 0 0 /56%); /*Usado para sombreamento*/
-    /*height: 350px;*/
-    /*width: 300px;*/
-    margin-top: 50px;
+    margin-top: 90px;
+    margin-bottom: 10px;
 }
 
 .secao-4 ul{
     padding: 0;
-    margin-bottom: 30px;
+    
 }
 
 .secao-4 li{
