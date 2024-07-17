@@ -96,7 +96,7 @@
 
 /* Estilos das sessão 3 */
 .secao-3{
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .secao-3 h2{
     font-weight: bold;
@@ -145,3 +145,82 @@
     }
 
 /* Fim do estilo da sessão 3 */ 
+
+/* Estilos da sessão 4 */
+.secao-4{
+    background-color: #fafafa;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 700px;
+}
+
+.secao-4 p{
+    font-family: Poppins;
+    font-weight: italic;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.secao-4 h2{
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+.secao-4 span{
+    color: #6a6a6a;
+}
+
+.secao-4 img{
+    border-radius: 10px;
+    box-shadow: 0px 13px 21px 0px rgb(0 0 0 /56%); /*Usado para sombreamento*/
+    /*height: 350px;*/
+    /*width: 300px;*/
+    margin-top: 50px;
+}
+
+.secao-4 ul{
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.secao-4 li{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    list-style-type: none;
+
+}
+
+.secao-4 i{
+    color: #ffa500;
+    margin-right: 10px;
+}
+/* Fim do estilo da sessão 4 */
+
+/* Estilos da sessão 5 */
+
+.secao-5 h2{
+    font-weight: bold;
+    font-family: Poppins;
+    color:black;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.secao-5 span{
+    color: #feec00;
+}
+
+.mapa{
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* Fim do estilo da sessão 5 */
+
