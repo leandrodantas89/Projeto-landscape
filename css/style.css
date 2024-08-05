@@ -1,9 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .topo-do-site{
     width: 100%;
     height: 800px; /*Tamanho do banner feito no photoshop*/
     background-image: url('../img/banner.png'); /*Colocado o banner do topo*/
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
 }
 
 .topo-do-site h1{
@@ -96,7 +100,7 @@
 
 /* Estilos das sessão 3 */
 .secao-3{
-    margin-bottom: 80px;
+    margin-bottom:80px;
 }
 .secao-3 h2{
     font-weight: bold;
@@ -178,6 +182,8 @@
     box-shadow: 0px 13px 21px 0px rgb(0 0 0 /56%); /*Usado para sombreamento*/
     margin-top: 90px;
     margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .secao-4 ul{
@@ -202,6 +208,10 @@
 
 /* Estilos da sessão 5 */
 
+.secao-5{
+    margin-bottom: 80px;
+}
+
 .secao-5 h2{
     font-weight: bold;
     font-family: Poppins;
@@ -220,7 +230,187 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
-
-
 /* Fim do estilo da sessão 5 */
 
+/* Estilos da sessão 6 */
+.secao-6{
+    margin-bottom: 80px;
+}
+.secao-6 h2{
+    font-weight: bold;
+    font-family: Poppins;
+    color:black;
+    font-size: 30px; 
+    margin-bottom: 5px; 
+    text-transform: uppercase; 
+}
+
+.fa-solid{
+    color: #ffa500;
+    margin-right: 10px;
+}
+
+.secao-6 span{
+    color: #feec00;
+}
+
+.secao-6 p{
+    font-family: Poppins;
+    font-weight: italic;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.secao-6 h3{
+    color: #0000ff;
+    font-family: Poppins;
+    font-weight: italic;
+}
+
+.eletricista2{
+    margin-top: 90px;
+}
+/* Fim do estilo da sessão 6 */
+
+/* Estilos da sessão 7 */
+.secao-7{
+    width: 100%;
+    height: 1200px;
+    margin-top: 110px;
+    background-image: url('../img/depoimento.jpg');
+    background-repeat: no-repeat center center;
+    background-size: cover;
+}
+
+.secao-7 h2{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Código do depoimento li utilizado do site https://css.glass/ */
+.depoimento li{
+    
+    background: rgba(31, 86, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(31, 86, 255, 0.49);
+    height: 450px;
+    margin-top: 40px;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.depoimento h3{
+    font-family: Poppins;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.depoimento p{
+    font-family: Poppins;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.depoi{
+    border-radius: 500px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 150px;
+    height: 150px;
+    -o-object-fit: cover;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Fim do estilo da sessão 7 */
+
+/* Estilos da sessão 8 */
+.secao-8{
+    width: 100%;
+    height: 700px;
+    text-align: center  ;
+    background-color: #020524;
+}
+
+.secao-8 h2{
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+
+.secao-8 p{
+    font-family: Poppins;
+    color: white;
+    margin-bottom: 50px;
+
+}
+/* Fim do estilo da sessão 8 */
+/* Estilos da sessão 9 */
+.secao-9{
+    width: 100%;
+    background-color:#ffa500;
+    height: 350px;
+    
+}
+
+.secao-9 h2{
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.secao-9 p{
+    font-family: Poppins;
+    color: black;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+.profissional {
+    margin-top: -122px;
+}
+
+.topo{
+    text-align: left;
+    position: absolute; /*serve para que o mesmo fique fixo*/
+    left: 80%; /*serve para que ele fique a esquerda*/
+    margin-top: -80px;
+}
+/* Fim do estilo da sessão 9 */
+
+/* Estilos da sessão 10 */
+.secao-10{
+    width: 100%;
+    background-color: #010101;
+    height: 50px;
+    
+}
+
+.secao-10 p{
+    font-family: Poppins;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding-top: 13px;
+    
+    
+}
+/* Fim do estilo da sessão 10 */

@@ -1,12 +1,132 @@
 /*Tablet*/
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .topo-do-site{
+        background-image: url('../img/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: red; /*Usado para verificar o tamanho para tablet*/
+        width: 100%;
+        
+    }
 
+    .topo-do-site h1{
+        font-size: 20px;
+    }
+    
+    .imagem-sessao{
+        display: none;
+    }
+
+    .secao-1 h2{
+        font-size: 28px;
+    }
+
+    .render{
+        margin-top: 161px;
+    }
+
+    .secao-2 h2{
+        font-size: 31px;
+        margin-top: 120px;
+    }
+
+    .secao-3 li{
+        width: 220px;
+    }
+
+    .secao-3 p{
+        font-size: 13px;
+    }
+
+    .secao-3 li h3{
+        font-size: 16px;
+    }
+
+    .secao-4{
+        height: 560px;
+    }
+
+    .secao-4 h2{
+        font-size: 25px;
+    }
+
+    .secao-6 h2{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .secao-7 li{
+        width: 220px;
+    }
+
+    .secao-7 p{
+        font-size: 13px;
+
+    }
+
+    .profissional{
+        margin-top: -24px;
+    }
+
+    .topo{
+        left: 91%;
+    }
 }
 
 /*Smartphone*/
 
 @media only screen and (max-width: 768px){
     
+    .topo-do-site{
+        background-image: url('../img/banner-cel.png');
+        
+    }
+
+    .topo-do-site h1{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .btn1{
+        margin-top:270px;
+    }
 	
+    .imagem-sessao{
+        display: none;
+    }
+
+    .secao-1 h2{
+        margin-top: 5px;
+        font-size: 27px;
+    }
+
+    .secao-2 img {
+        display: none;
+    }
+
+    .secao-3 h2{
+        font-size: 25px;
+    }
+
+    .secao-4{
+        height: 650px;
+    }
+
+    .secao-4 img{
+        display: none;
+    }
+
+    .btn4{
+        margin-top: 20px;
+    }
+
+    .secao-5 h2{
+        font-size: 25px;
+    }
+
+    .eletricista2{
+        display: none;
+    }
+
 }
