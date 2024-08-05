@@ -4,8 +4,9 @@
     .topo-do-site{
         background-image: url('../img/banner.png');
         background-size: cover;
-        background-repeat: no-repeat;
-        background-color: red; /*Usado para verificar o tamanho para tablet*/
+        background-position: center;
+        
+        /*background-color: red; /*Usado para verificar o tamanho para tablet*/
         width: 100%;
         
     }
@@ -80,6 +81,8 @@
     
     .topo-do-site{
         background-image: url('../img/banner-cel.png');
+        background-size:cover;
+        background-position: center ;
         
     }
 
@@ -89,7 +92,7 @@
     }
 
     .btn1{
-        margin-top:270px;
+        margin-top:300px;
     }
 	
     .imagem-sessao{
@@ -107,6 +110,11 @@
 
     .secao-3 h2{
         font-size: 25px;
+    }
+
+    .secao-3 ul{
+        padding: 0;
+        margin: 0;
     }
 
     .secao-4{
@@ -131,6 +139,11 @@
 
     .secao-7 h2{
         font-size: 25px;
+    }
+
+    .secao-7 ul{
+        margin: 0;
+        padding: 0;
     }
 
    
